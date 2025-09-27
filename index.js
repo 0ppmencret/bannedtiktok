@@ -37,9 +37,9 @@ class WhatsAppUnlimitedBot {
         this.loadingStates = new Map();
         
         this.config = {
-            ownerNumber: '628999859595',
+            ownerNumber: '6281271247153',
             sessionFolder: 'session',
-            botName: '🤖 LEO UNLIMITED BOT v9999',
+            botName: 'LEO UNLIMITED BOT v9999',
             usePairingCode: false,
             bannerImage: 'hozoo.jpg',
             proxySources: [
@@ -176,7 +176,7 @@ class WhatsAppUnlimitedBot {
         
         return `
 ╔══════════════════════════════════════╗
-║           🤖 LORDHOZOO BOT           ║
+║           KAISER BOT           ║
 ║              v${this.menuConfig.version}              ║
 ╠══════════════════════════════════════╣
 ║ 👤 User: ${userNumber.padEnd(25)} ║
@@ -250,7 +250,7 @@ Contoh: !report 628123456789
         
         return `
 ┌──────────────────────────────────────┐
-│           🦊 LORDHOZOO BOT           │
+│           KAISER BOT🤭           │
 │           v${this.menuConfig.version} ENHANCED          │
 ├──────────────────────────────────────┤
 │ 👤 User: ${userNumber}
@@ -461,7 +461,7 @@ Pilih aksi cepat dengan angka:
             const info = `
 🤖 *ENHANCED BOT INFORMATION* 🤖
 
-👑 *Developer:* Leo Team
+👑 *Developer:* Leo 
 🅿️ *Version:* ${this.menuConfig.version}
 📅 *Last Update:* ${this.menuConfig.lastUpdate}
 ⏰ *Uptime:* ${this.getUptime()}
@@ -515,7 +515,7 @@ Hubungi owner untuk bantuan teknis dan premium upgrade.
 🔒 *SECURITY STATUS:*
 • Premium Users: ${this.premiumUsers.size}
 • Active Sessions: 1
-• Security Level: HIGH
+• Security Level: VERY HIGH
         `.trim();
 
         await this.sendBotMessage(jid, status);
