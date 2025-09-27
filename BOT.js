@@ -221,7 +221,7 @@ class WhatsAppUnlimitedBot {
         });
     }
 
-    async function initMethods() {
+    async function init() {
     await this.showEnhancedBanner();
     await this.loadProxyList();
     await this.loadTikTokReports();
