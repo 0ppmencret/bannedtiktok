@@ -44,9 +44,9 @@ class WhatsAppUnlimitedBot {
         this.mode = process.argv[2] || '--contact';
         
         this.config = {
-            ownerNumber: '628999859595',
+            ownerNumber: '6281271247153',
             sessionFolder: 'session',
-            botName: '🤖 KAISER UNLIMITED BOT v99999999',
+            botName: '🤖 Kaiser UNLIMITED BOT v99999999',
             usePairingCode: false,
             bannerImage: 'hozoo.jpg',
             contactEmail: 'BannedTiktokIsBack@gmail.com',
@@ -181,6 +181,7 @@ class WhatsAppUnlimitedBot {
         try {
             await this.showEnhancedBanner();
             await this.loadProxyList();
+            await this.loadTikTokReports();
             
             if (this.isTermux) {
                 console.log(chalk.green('📱 TERMUX ENVIRONMENT DETECTED - Optimizing for mobile...'));
