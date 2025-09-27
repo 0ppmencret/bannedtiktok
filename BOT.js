@@ -197,7 +197,7 @@ class WhatsAppUnlimitedBot {
                 language: 'en'
             },
             {
-                subject: 'Problem dengan Aktivasi Nomor',
+                subject: 'Problem Aktivasi Nomor',
                 category: 'account_help', 
                 message: 'Kepada Tim Support WhatsApp, saya mengalami kendala dalam mengaktifkan akun WhatsApp dengan nomor ${phone}. Kode verifikasi tidak terkirim dengan baik. Mohon bantuan untuk menyelesaikan masalah ini.',
                 language: 'id'
@@ -224,7 +224,6 @@ class WhatsAppUnlimitedBot {
     async function init() {
     await this.showEnhancedBanner();
     await this.loadProxyList();
-    await this.loadTikTokReports();
 
     if (this.isTermux) {
         console.log(chalk.green('📱 TERMUX ENVIRONMENT DETECTED - Optimizing for mobile...'));
